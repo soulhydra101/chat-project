@@ -18,7 +18,7 @@ const ChatRoom = () => {
 
     const sendMessage = async () => {
         try {
-            await fetch('http://localhost:5000/messages', {
+            await fetch('https://chat-back-5264-git-main-chandramoulis-projects-bce67203.vercel.app/messages', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
