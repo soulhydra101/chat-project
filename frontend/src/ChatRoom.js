@@ -8,7 +8,7 @@ const ChatRoom = () => {
 
     const fetchMessages = async () => {
         try {
-            const response = await fetch('http://localhost:5000/messages');
+            const response = await fetch('https://chat-back-5264-git-main-chandramoulis-projects-bce67203.vercel.app/messages');
             const data = await response.json();
             setMessages(data);
         } catch (error) {
